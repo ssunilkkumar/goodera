@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins'
+}
+body{
+    font-family: sans-serif;
+    background-color: #E5E5E5;
+}
+.topHeading {
+    background-image: linear-gradient(to right, #5D7ADF, #5DB0DF);
+    padding: 37px 154px 143px;
+    color: white;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navPartOne main {
+    display: flex;
+    gap: 5px;
+}
+.navPartOne, .navPartTwo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+}
+.head main {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 700px;
+    margin-top: 70px;
+}
+.container {
+    position: absolute;
+    top: 330px;
+    padding: 0 154px 0 143px;
+    
+}
+.containerHead {
+    display: flex;
+    background-color: white;
+    border-radius: 7px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+.containerHead img {
+    width: 27px;
+}
+.flex {
+    display: flex;
+    text-align: center;
+}
+.search, .location {
+    display: flex;
+    text-align: center;
+    width: 200px;
+    gap: 4px;
+}
+.containerHead select {
+    outline: none;
+    border: none;
+}
+.containerHead button {
+    width: 100px;
+    background: #F07987;
+    color: white;
+    border: none;
+    border-radius:6px;
+}
+.content {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.box {
+    display: flex;
+    gap: 15px;
+    background-color: white;
+    padding: 20px 25px;
+    border-radius: 7px;
+    position: relative;
+}
+
+.box div {
+    color: #7B7B7B;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.box main {
+    font-weight: 500px;
+    font-size: 24px;
+    line-height:36px;
+    color: black;
+}
+.box button {
+    position: absolute;
+    right: 25px;
+    border: 2px solid #F07987;
+    color: #F07987;
+    background-color: white;
+    padding:5px 10px;
+    border-radius: 7px;
+}
